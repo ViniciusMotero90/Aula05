@@ -2,8 +2,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class TeacherHelper {
-
-	public static final double horaAula = 17.50;
 	public static void main(String[] args) {
 		int opcao=0, numeroAulas, qtdeAlunos, i;
 		double salarioBase, horaAtividade, descansoSemanalRemunerado, salario, notaAluno, mediaAlunos;
@@ -18,6 +16,7 @@ public class TeacherHelper {
 			System.out.println("1 - Calcular salário");
 			System.out.println("2 - Calcular média de notas dos alunos");
 			System.out.println("3 - Exibir a motivação do dia!");
+			System.out.println("4 - Sair do programa");
 			opcao = leitor.nextInt();
 			
 			switch (opcao) {
